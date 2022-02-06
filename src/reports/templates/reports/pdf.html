@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pdf viewer</title>
+</head>
+<body>
+    <h1>{{object.name|title}}</h1>
+    <hr>
+    <img src='{{object.image.url}}'>
+</br>
+    <h3>Remarks</h3>
+    <h6>{{object.remarks}}</h6>
+    <hr>
+    <div><h7><b>Created by: </b>{{object.author.user.username}}</h7></div>
+    <h7><b>Created at: </b>{{object.created}}</h7>
+
+</body>
+</html>

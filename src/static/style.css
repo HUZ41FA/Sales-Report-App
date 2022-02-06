@@ -1,0 +1,31 @@
+.not-visible{
+    display: none;
+}
+
+.dz{
+    border: dashed;
+    border-radius: 5px;
+    border-color: rgb(64, 166, 255);
+    transition: 0.5s;
+}
+
+.dz:hower{
+    background-color: #0c00bb;
+}
+
+.avatart-sm{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.avatart-big{
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+}
+
+.logo-sm{
+    width: 30px;
+    height: 30px;
+}
